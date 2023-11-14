@@ -1,5 +1,9 @@
 # The Impulses Project
 
+<p align="center">
+  <img width="50%" height="50%" src="https://i.imgur.com/NIPQSQT.jpg" alt="Impulses Project Logo"/>
+</p>
+
 Ever since I started my journey as a software developer, one of the biggest challenges I've had to face on an almost regular basis is setting up a dev environment as soon as possible. The faster I configure my environment, the quicker I can get to coding up the project - the part that really matters in the end.
 
 Having spent the past decade or so working in a variety of fields - from machine learning and game development to quantum computing and web development - I've wrestled with countless technologies and their environment setups. Some are easy, some are brutal, but none are impossible. Indeed, the problem wasn't how hard the process ended up being. The problem was how many *times* I had to go through the same process each time I wanted to start a new project. How difficult the setup was just made it that much worse each time around. As they say, time is money, and I needed to save money.
