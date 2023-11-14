@@ -35,9 +35,9 @@ To get started, you will need
 
 Each repository in this organization contains the following
 
-- **Dockerfile** - This is the file that is used to build the boilerplate image that is later on spun up by the dev container. Run `docker build -t [tagname] .` to build these images yourself
+- **Dockerfile** - This is the file that is used to build the tagged boilerplate image that is later on spun up by the dev container. Run `docker build -t [tagname] .` to build these images yourself
 - **.devcontainer/devcontainer.json** - Contains configurations on how the `Dev Containers - VS Code Extension` should spin up a working dev container. This is quite irrelevant and used only by this particular `VS Code` extension.
-- **.devcontainer/docker-compose.yml** - Arguably the most important file in this system. This docker compose config file in the `YAML` format contains information on what image must be used, what volumes must be mounted, and what environment must be setup when spinning up the dev container. If you want to use a different image or an image that you built, replace the `image:` field in the description with the appropriate `dockerhub` URI locator for your image.
+- **.devcontainer/docker-compose.yml** - Arguably the most important file in this workflow. This docker compose config file in the `YAML` format contains information on what image must be used, what volumes must be mounted, and what environment must be setup when spinning up the dev container. If you want to use a different image or an image that you built, replace the `image:` field in the description with the appropriate `dockerhub` URI locator for your image.
 - **.vscode/settings.json** - Contains workspace settings that VS Code will apply to the workspace **inside** your dev container once it is created and running.
 - **.vscode/extensions.json** - Contains a list of recommended extensions that I personally like to use when working with the associated tech stack. `VS Code` will prompt you to install all of these in one go when the dev container is first created.
 
